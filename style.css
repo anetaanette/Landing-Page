@@ -3,18 +3,32 @@ body {
   display: flex;
   flex-direction: column;
   background-color: #eee;
+  height: 100vh;
 }
 
 .navbar {
   display: flex;
-  gap: 300px;
   margin: 0;
+  min-width: 100%;
+}
+
+.photos-link {
+  display: flex;
+}
+
+.photos-link ul {
+  width: 100%;
 }
 
 ul {
   display: flex;
-  gap: 25px;
+  justify-content: space-between;
   list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(87, 78, 32);
 }
 
 #about {
@@ -32,6 +46,7 @@ ul {
 #about p {
   max-width: 500px;
   margin-top: -10px;
+  font-size: 18px;
 }
 
 img {
@@ -44,6 +59,8 @@ button {
   background-color: purple;
   color: white;
   border-radius: 20px;
+  height: 30px;
+  width: 200px;
 }
 
 #photos {
@@ -56,22 +73,39 @@ button {
   margin: 0 auto;
 }
 
+.title-food {
+  margin: 0 auto;
+  margin-top: 50px;
+  height: 30px;
+}
+
 #fave-food {
   height: 300px;
   display: flex;
+  gap: 30px;
   max-width: 90%;
-  display: flex;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
 }
 
 .container {
-  width: 250px;
+  width: 200px;
 }
 
 .container p {
   width: 150px;
+}
+
+.quote {
+  max-width: 50%;
+  height: 100px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 20px;
+  background-color: rgb(230, 225, 195);
 }
 
 footer {
@@ -80,4 +114,6 @@ footer {
   width: 100%;
   text-align: center;
   padding: 10px;
+  margin-left: -10px;
+  margin-right: -10px;
 }
