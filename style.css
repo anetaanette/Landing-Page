@@ -4,12 +4,17 @@ body {
   flex-direction: column;
   background-color: #eee;
   height: 100vh;
+  color: rgb(87, 78, 32);
 }
 
 .navbar {
   display: flex;
   margin: 0;
   min-width: 100%;
+}
+
+.space {
+  width: 30%;
 }
 
 .photos-link {
@@ -21,9 +26,11 @@ body {
 }
 
 ul {
-  display: flex;
   justify-content: space-between;
   list-style-type: none;
+  display: flex;
+  gap: 30px;
+  margin-right: 0;
 }
 
 a {
@@ -59,8 +66,9 @@ button {
   background-color: purple;
   color: white;
   border-radius: 20px;
-  height: 30px;
   width: 200px;
+  margin-bottom: 30px;
+  margin-top: 15px;
 }
 
 #photos {
@@ -74,8 +82,7 @@ button {
 }
 
 .title-food {
-  margin: 0 auto;
-  margin-top: 50px;
+  margin: 40px auto;
   height: 30px;
 }
 
@@ -98,10 +105,9 @@ button {
 }
 
 .quote {
-  max-width: 50%;
+  width: 40%;
   height: 100px;
-  margin: 0 auto;
-  margin-bottom: 60px;
+  margin: 60px auto;
   padding: 20px;
   text-align: center;
   border-radius: 20px;
